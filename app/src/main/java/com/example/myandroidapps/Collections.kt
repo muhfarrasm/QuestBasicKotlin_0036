@@ -93,4 +93,8 @@ fun ContohMao() {
     // Mengubah data di dalam Map Mutable
     shape["Square"] = 5
     println (shape)
+
+    // Map Read-Only
+    val shapeLocked: Map<String, Int> = shape
+    println(shapeLocked)
 }
