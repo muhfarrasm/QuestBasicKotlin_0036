@@ -26,6 +26,15 @@ fun withDefaultParameter(name: String = "Farras", age: Int){
     println("Hello, $name! You are $age years old")
 }
 
-fun withReturn(panjang : Int, lebar : Int) : Int {
-    return println(panjang * lebar)
+fun withReturn(panjang: Int, lebar: Int): Int {
+    return panjang * lebar // Mengembalikan hasil luas
+}
+
+fun main (){
+    withoutParameter()
+    withParameter("Farras")
+    withNamedArgument("Farras", age = 21)
+    withDefaultParameter (age = 21)
+    val luas = withReturn(5, 10) // Memanggil fungsi dan menyimpan hasilnya
+    println("Luas: $luas") // Mencetak hasil luas
 }
