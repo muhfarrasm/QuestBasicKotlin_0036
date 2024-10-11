@@ -8,3 +8,10 @@ package com.example.myandroidapps
 fun uppercaseString(string: String): String{
     return string.uppercase()
 }
+
+// Dapat ditulis dalam ekspresi lambda sbb :
+fun main() {
+    uppercaseString("help")
+    println({ string: String -> string.uppercase() } ("help"))
+
+}
