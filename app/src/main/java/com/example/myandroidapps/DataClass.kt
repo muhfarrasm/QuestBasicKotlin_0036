@@ -26,8 +26,4 @@ fun main() {
     val data4 = data.copy(email = "sahar@gmail.com")
     print(data4)
 
-
-
-
-
 }
