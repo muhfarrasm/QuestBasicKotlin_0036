@@ -71,7 +71,7 @@ fun ContohSet() {
 // Map Read-Only menggunakan mapOf
 // Map Mutable menggunakan mutableMapOf
 
-fun ContohMao() {
+fun ContohMap() {
     println()
     println("===Map===")
     // Map Read-Only
@@ -97,4 +97,10 @@ fun ContohMao() {
     // Map Read-Only
     val shapeLocked: Map<String, Int> = shape
     println(shapeLocked)
+}
+
+fun main() {
+    ContohList()
+    ContohSet()
+    ContohMap()
 }
