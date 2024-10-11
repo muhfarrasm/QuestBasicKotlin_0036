@@ -8,4 +8,16 @@ fun ConditionalStatment() {
     println("=== Conditional Expression ===")
 
 
+    //If-Else
+    val number = 10
+    if (number > 0)
+    {
+        println("Angka Positif broww")
+    }
+    else
+    {
+        println("Angka Negatif broww")
+    }
+
+
 }
