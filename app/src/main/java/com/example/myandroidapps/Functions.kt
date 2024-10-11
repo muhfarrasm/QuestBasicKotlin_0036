@@ -22,11 +22,14 @@ fun withNamedArgument(name: String, age: Int) {
 // default parameter value
 // default parameter value merupakan cara untuk memberikan nilai default pada parameter fungsi
 fun withDefaultParameter(name: String = "Farras", age: Int){
+    println()
     println("=== withDefaultParameter ===")
     println("Hello, $name! You are $age years old")
 }
 
 fun withReturn(panjang: Int, lebar: Int): Int {
+    println()
+    println("=== withReturn ===")
     return panjang * lebar // Mengembalikan hasil luas
 }
 
