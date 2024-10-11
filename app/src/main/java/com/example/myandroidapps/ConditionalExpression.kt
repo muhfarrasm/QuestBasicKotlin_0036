@@ -48,7 +48,10 @@ for (i in 1..5) {
     println("Perulangan ke-$i")
 }
 
-
+val cars = listOf("BMW", "Toyota", "Honda", "Audi", "Mercedes")
+for (car in cars){
+    println("Car type: $car")
+}
 
 }
 fun main() {
