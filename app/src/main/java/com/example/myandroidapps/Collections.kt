@@ -78,4 +78,8 @@ fun ContohMao() {
     val readOnlyShape: Map<String, Int> = mapOf("Circle" to 1, "Square" to 2, "Triangle" to 3)
     println(readOnlyShape)
 
+    // Map Mutable
+    val shape: MutableMap<String, Int> = mutableMapOf("Circle" to 1, "Square" to 2, "Triangle" to 3)
+    println (shape)
+
 }
